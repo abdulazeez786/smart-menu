@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <style>
+        .bc{
+           background-image: url("http://www.taher.com/wp-content/uploads/2015/01/why-are-you-hungry.jpg");
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center center;
+           /* display:flex; */
+           justify-content: center;
+           align-items: center;
+        }
+        .tc{
+            color: orangered;
+            margin-top: 50px;
+            font-size: 22px;
+        
+        } 
+        input{
+            border-radius: 15px;
+            height: 35px;
+            width: 180px;
+        } 
+        .hover{
+            color:orangered;
+        }
+        .h1{
+            font-size: 100px;
+        }
+        fieldset{
+            width: 30%;
+            display: inline-block;
+            padding-bottom: 30px;
+            background-color: black;
+            border-radius: 25px;
+            border-width: 0;
+        }
+        .color{
+            color:whitesmoke;
+       
+        }
+        .button:hover{
+            background-color: white;
+            color:orangered;
+            transition-duration: 0.5s;
+            transform: scale(1.1);
+        }
+        .button{
+            border:none;
+            background-color: orangered;
+            color: white;
+            border-radius: 10px;
+            padding: 5px 15px;
+            width: 100px;
+            height: 35px;
+
+    }
+        </style>
+        <script>
+
+        </script>
+    </head>
+    <body class="bc">
+        <div class="color">
+        <h1 style="color:orangered; font-size: 30px; margin-top: 30px;" align="center">FILL THE DETAILS</h1>
+        <div class="tc" align="center">
+            <fieldset><br>
+            <label class="tc">Enter your Name</label><br><br>
+            <input type="text" name="t1"><br><br>
+            <label class="tc">Enter table Number</label><br><br>
+            <input type="number" name="n1"><br><br><br>
+            <button onclick="location.href='main.html'" class="button">Submit</button>
+            </fieldset>
+        </div>
+        
+        </div>
+    </body>
+</html>

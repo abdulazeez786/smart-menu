@@ -1,0 +1,89 @@
+*{
+    margin:0;
+}
+body{
+    background-image:url('https://media.istockphoto.com/id/816887384/photo/about-us.jpg?s=612x612&w=0&k=20&c=2X8lobqw8nUWHMshyfcExb7jmF73u9XzIBAsVMjLFv4=');
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100%;
+    width:100vw;
+    background-blend-mode: darken;
+
+
+}
+.rom{
+    margin-left:auto;
+}
+
+.bg{
+    background-color: #121212;
+    
+}
+
+.navsty{
+    color:orangered;
+    font-family: cursive;
+}
+
+.style{
+    margin:2px;
+   
+}
+
+.style:hover{
+    /* border:2px solid orangered; */
+    background-color: orangered;
+}
+.cardsec{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.card{
+    background-color:#ffffff;
+    height:442px;
+    width:270px;
+    opacity:1;
+    padding:10px;
+    border-radius:10px;
+    margin:20px;
+    opacity:0.9;
+    /* box-shadow:5px 5px 10px orangered; */
+}
+.about{
+    margin-top:150px;
+    color:#ffffff;
+}
+.ab1{
+    color:rgb(241, 9, 9);
+    font-size:35px;
+    text-align: center;
+    
+}
+.footer{
+    background-color: #121212;
+    height:250px;
+    width:100%;
+}
+.icon{
+    position:absolute;
+    margin-top:40px;
+}
+.im{
+    /* position:absolute; */
+    height:50px;
+    
+}
+.icon1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.he{
+    color:white;
+    font-size:20px;
+}
+
+.cd h2{
+    color:orangered;
+}

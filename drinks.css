@@ -1,0 +1,146 @@
+*{
+    margin:0;
+}
+body{
+    background-image:url('http://d2uqfpnktc64mn.cloudfront.net/uploads/post/image/000/000/814/default_Photo--by-Carla-McMahon.-Flaming-Vodka-Cocktails.-Used-with-permission.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100%;
+    width:100vw;
+    background-blend-mode: darken;
+
+
+}
+.head{
+    color:orangered;
+    padding:20px;
+    margin-top: 77px;
+    font-size:39px;
+}
+.para{
+    color:#ffffff;
+    font-size:30px;
+}
+.main2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    
+    
+}
+.cardsec{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.card{
+    background-color:#ffffff;
+    height:442px;
+    width:270px;
+    opacity:1;
+    padding:10px;
+    border-radius:10px;
+    margin:20px;
+    opacity:0.9;
+    /* box-shadow:5px 5px 10px orangered; */
+}
+.card:hover{
+    box-shadow:10px 10px 30px orangered;
+    opacity:1;
+    transition-duration: 0.5s;
+    transform:scale(1.1) ;
+}
+.image{
+    height:300px;
+    width:248px;
+    border-radius: 5px;
+
+}
+.button{
+    background-color:orangered;
+    height:40px;
+    width:95px;
+    color:#ffffff;
+    border-radius:5px;
+    border-width:0px;
+
+
+}
+.button:hover{
+    background-color:black;
+    color:orangered;
+}
+
+
+.cd{
+    background-color:#ffffff;
+    background-size:cover;
+    padding:20px;
+    text-align:center;
+
+
+}
+/* navbar section */
+.rom{
+    margin-left:auto;
+}
+
+.bg{
+    background-color: #121212;
+    
+}
+
+.navsty{
+    color:orangered;
+    font-family: cursive;
+}
+
+.style{
+    margin:2px;
+   
+}
+
+.style:hover{
+    /* border:2px solid orangered; */
+    background-color: orangered;
+    
+}
+
+.bg1{
+    color: orangered;
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+
+
+
+
+
+.footer{
+    background-color: #121212;
+    height:250px;
+    width:100%;
+}
+.icon{
+    position:absolute;
+    margin-top:40px;
+}
+.im{
+    /* position:absolute; */
+    height:50px;
+    
+}
+.icon1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.he{
+    color:white;
+    font-size:20px;
+    
+    
+
+    
+}

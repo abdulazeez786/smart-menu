@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    overflow: hidden;
+}
+
+#hero{
+    height:100vh;
+    width:100vw;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#hero::before{
+    content:"";
+    height:100%;
+    width:100%;
+    background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1012306/1360/906/m1/fpnw/wm1/vaounjvbsbvj78xiwkyp3kqvo6vtlqlga1gnvzz1jleprp1bu1uxouunfff4lvby-.jpg?1456016041&s=9604ff163357275eb8985f8139181285");
+    position: absolute;
+    top:0;
+    left:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter:brightness(50%);
+}
+
+#hero-content{
+    position:absolute;
+}  
+
+
+#hero-content h1{
+    font-size: 3rem;
+    font-family: cursive;
+    color:orangered;
+}
+
+#hero-content h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    font-size: 1.5rem;
+}
+
+#hero-content button{
+    padding:15px 40px 15px 40px;
+    background-color: orangered;
+    color:black;
+    border-radius: 20px;
+    font-weight: 900;
+    font-family: cursive;
+    /* margin-top:20px; */
+}
+
+
+#hero-content button:hover{
+    color:BLACK;
+    transition-duration: 0.5s;
+    background-color:WHITE;
+}
+
+
+
+
+
+
+
+
+
+
+.rom{
+    margin-left:auto;
+}
+
+.bg{
+    background-color: #121212;
+    
+}
+
+.navsty{
+    color:orangered;
+    font-family: cursive;
+}
+
+.style{
+    margin:2px;
+   
+}
+
+.style:hover{
+    /* border:2px solid orangered; */
+    background-color: red;
+}
+
+.bg1{
+    color: orangered;
+    font-size: 2rem;
+    font-family: cursive;
+}
+

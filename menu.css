@@ -1,0 +1,169 @@
+*{
+    margin:0px;
+}
+
+
+
+.rom{
+    margin-left:auto;
+}
+
+.bg{
+    background-color: #121212;
+    
+}
+
+.navsty{
+    color:orangered;
+    font-family: cursive;
+}
+
+.style{
+    margin:2px;
+   
+}
+
+.style:hover{
+    border:2px solid orangered;
+    
+}
+
+.bg1{
+    color: orangered;
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+
+
+.background{
+    background-image: url('https://t4.ftcdn.net/jpg/02/92/20/37/360_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    
+}
+.text{
+    text-align: center;
+    text-transform:capitalize ;
+    
+    margin-top: 15px;
+    color:orangered;
+}
+.cost{
+    text-align: center;
+    text-transform:capitalize ;
+    margin-top: 15px;
+    color:white;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+    margin-top: 100px;
+  
+}
+.container1{
+    height:480px;
+    width:350px;
+    /* background-color: antiquewhite; */
+    margin:30px;
+    border-radius:25px;
+    border: 2px solid white;
+}
+.card-image {
+    height:250px;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.img1{
+    background-image: url('https://4.bp.blogspot.com/-5mWLLgiOl5o/WQ56Jkv0JmI/AAAAAAAAq1U/QPfswbFuIawaBBCwRntWV0-GieXmQgkrgCLcB/s1600/mini-tiffin.jpg');
+}
+.img2{
+    background-image: url('http://www.flavorquotient.com/wp-content/uploads/2020/04/Chicken-Tikka-FQ-4-1-of-1.jpg');
+}
+.img3{
+    background-image: url('https://b.zmtcdn.com/data/pictures/chains/2/18692872/7b3b5bd931342b276e0312d62f78debe.jpg');
+}
+.img4{
+    background-image: url('https://images.slurrp.com/prod/articles/b7gens7wnkb.webp');
+}
+.img5{
+    background-image: url('https://images6.alphacoders.com/434/434430.jpg');
+}
+.img6{
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.2k8cSkic8DTooGxTTLdXBgHaEo&pid=Api&P=0&h=180');
+}
+
+
+
+.button{
+    height:50px;
+    width:95px;
+    text-align: center;
+    margin-left: 115px;
+    margin-top:36px;
+     background-color: orangered; 
+    border-radius:30px;
+    border: none;
+    color:white;
+
+}
+.button:hover{
+    background-color:black;
+    color:orangered;
+    transition-duration: 0.4s;
+    transform:scale(1.1);
+    
+}
+.container1:hover{
+    /* background-color: ; */
+    color:white;
+    transform:scale(1.1);
+    transition:all 0.4s ease;
+    cursor: pointer;
+}
+.container1:hover{
+    animation-name: shadow;
+    animation-duration:2s;
+    }
+
+@keyframes shadow{
+    100%{box-shadow:0px 0px 40px orangered};
+}
+
+
+
+.footer{
+    background-color: #121212;
+    height:250px;
+    width:100%;
+}
+.icon{
+    position:absolute;
+    margin-top:40px;
+}
+.im{
+    /* position:absolute; */
+    height:50px;
+    
+}
+.icon1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.he{
+    color:white;
+    font-size:20px;
+    
+    
+
+    
+}
